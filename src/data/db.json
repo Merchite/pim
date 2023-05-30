@@ -1,7 +1,40 @@
 {
   "products": [
-    { "id": 1, "name": "Product 1", "price": 29.99, "description": "Product 1 description", "image": "product-1.jpg", "status": "Published", "channel": "Channel A", "needsRefinement": false },
-    { "id": 2, "name": "Product 2", "price": 39.99, "description": "Product 2 description", "image": "product-2.jpg", "status": "Draft", "channel": "Channel B", "needsRefinement": true },
-    { "id": 3, "name": "Product 3", "price": 49.99, "description": "Product 3 description", "image": "product-3.jpg", "status": "Published", "channel": "Channel A", "needsRefinement": true }
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 29.99,
+      "description": "Product 1 description",
+      "image": "product-1.jpg",
+      "status": "Published",
+      "channel": "Channel A",
+      "needsRefinement": false
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 39.99,
+      "description": "Product 2 description",
+      "image": "product-2.jpg",
+      "status": "Draft",
+      "channel": "Channel B",
+      "needsRefinement": true
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 49.99,
+      "description": "Product 3 description",
+      "image": "product-3.jpg",
+      "status": "Published",
+      "channel": "Channel A",
+      "needsRefinement": true
+    },
+    {
+      "id": 4,
+      "name": "Test",
+      "price": 123,
+      "description": "SAD"
+    }
   ]
 }
