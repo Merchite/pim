@@ -106,9 +106,11 @@ const ProductListing = () => {
         <Button variant="contained" color="primary" onClick={clearFilters}>
           Clear Filters
         </Button>
-        <Button variant="contained" color="primary" style={{ float: 'right' }}>
-          Add Product
-        </Button>
+        <Link to="/products/add">
+          <Button variant="contained" color="primary" style={{ float: 'right' }}>
+            Add Product
+          </Button>
+        </Link>
       </div>
       <Table>
         <TableHead>

@@ -4,6 +4,7 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import Dashboard from './Dashboard';
 import ProductDetail from './ProductDetail';
 import ProductListing from './ProductListing';
+import AddProduct from './AddProduct';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/products" element={<ProductListing />} />
+          <Route path="/products/add" element={<AddProduct />} />
           <Route path="/products/:id" element={<ProductDetail />} />
         </Routes>
         <footer>
